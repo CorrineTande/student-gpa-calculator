@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GPA Calculator</h1>
+        <form id="gpaForm">
+            <div class="course-row">
+                <input type="text" class="course-name" placeholder="Course Name" required>
+                <select class="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div class="course-row">
+                <input type="text" class="course-name" placeholder="Course Name" required>
+                <select class="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div class="course-row">
+                <input type="text" class="course-name" placeholder="Course Name" required>
+                <select class="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <button type="button" id="addCourse">Add Another Course</button>
+            <button type="submit">Calculate GPA</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
